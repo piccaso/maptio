@@ -7,4 +7,4 @@ COPY . /app/
 RUN npm install
 
 EXPOSE 4200
-CMD docker-cmd.sh
+CMD /app/docker-cmd.sh
